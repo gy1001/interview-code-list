@@ -120,7 +120,7 @@ downLoad()
     }
 
 ```
-### 删掉下载/全屏等按钮
+#### 删掉下载/全屏等按钮
 1. 属性更改： 添加属性
 ```html
   controlsList='nofullscreen nodownload noremote footbar'
@@ -137,7 +137,7 @@ downLoad()
   2. [跳转](https://blog.csdn.net/jiajia199470/article/details/85276267)
   3. [跳转](https://blog.csdn.net/jw19950424/article/details/80323087)
 
-### video在微信浏览器中的标签
+#### video在微信浏览器中的标签
 1. 安卓机
     * 部分安卓机视频会悬浮，需要设置属性
       webkit-playsinline="true"
@@ -147,7 +147,7 @@ downLoad()
       x5-video-player-fullscreen="true"
 2. IOS
     * 手机播放会自动全屏播放
-### video在webView中的表现
+#### video在webView中的表现
 1. 安卓机
       * App中不能全屏播放，否则会卡死，需要App对webview做一些属性支持
 2. IOS
